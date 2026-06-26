@@ -204,7 +204,7 @@ const prices = {
   Drag_Antena: { week: 70000, month: 120000 },
   Drag_NoAntena: { week: 70000, month: 120000 },
   Body_NoAntena: { week: 70000, month: 120000 },
-  Drip_Proxy: { week: 100000, month: 180000 }
+  Drip_Proxy: { week: 100000, month: 180000 },
 
   Fluorite: { day: 100000, week: 250000, month: 350000 },
   Migul_Lite: { day: 50000, week: 150000, month: 300000 },

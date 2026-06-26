@@ -24,7 +24,7 @@ const BANK_ACC = process.env.BANK_ACC;
 const BANK_NAME = process.env.BANK_NAME || "MB";
 
 const THUMBNAIL = "https://files.catbox.moe/zfnalg.gif";
-const IMAGE = "https://files.catbox.moe/joz8h7.gif";
+const IMAGE = "https://i.ibb.co/7tq8swgv/IMG-2300.gif";
 
 const client = new Client({
   intents: [

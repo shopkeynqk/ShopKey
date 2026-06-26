@@ -70,11 +70,10 @@ function getExpireDate(time) {
 
 function formatName(type) {
   const map = {
-    Drag_Antena: "Drag Antena",
-    Drag_NoAntena: "Drag No Antena",
-    Body_NoAntena: "Body No Antena",
-    Bung_Antena: "Bụng Antena",
-    Bung_NoAntena: "Bụng No Antena",
+    Drag_Antena: "Drag Holo",
+    Drag_NoAntena: "Drag No Holo",
+    Body_NoAntena: "Body",
+    Drip_Proxy: "Full Aim",
     Migul_Lite: "Migul VN [Lite]",
     Migul_Pro: "Migul VN [Pro]"
   };
@@ -181,11 +180,10 @@ function proxyVipMenu() {
       .setCustomId("proxy_vip_type")
       .setPlaceholder("🌐 Select Proxy ")
       .addOptions([
-        { label: "Drag Định vị", value: "Drag_Antena" },
-        { label: "Drag Ko Định vị", value: "Drag_NoAntena" },
-        { label: "Body No Tay Dài", value: "Body_NoAntena" },
-        { label: "Bụng Định vị", value: "Bung_Antena" },
-        { label: "Bụng Ko Định vị", value: "Bung_NoAntena" }
+        { label: "Drag Đvi", value: "Drag_Antena" },
+        { label: "Drag Ko Đvi", value: "Drag_NoAntena" },
+        { label: "Body", value: "Body_NoAntena" },
+        { label: "Proxy Adr", value: "Drip_Proxy" },
       ])
   );
 }
@@ -195,25 +193,24 @@ function migulMenu() {
     new StringSelectMenuBuilder()
       .setCustomId("migul_type")
       .addOptions([
-        { label: "Ver Lite", value: "Migul_Lite" },
-        { label: "Ver Pro", value: "Migul_Pro" }
+        { label: "Lite", value: "Migul_Lite" },
+        { label: "Pro", value: "Migul_Pro" }
       ])
   );
 }
 
 // ===== PRICES =====
 const prices = {
-  Drag_Antena: { week: 100000, month: 200000 },
-  Drag_NoAntena: { week: 120000, month: 220000 },
-  Body_NoAntena: { week: 90000, month: 180000 },
-  Bung_Antena: { week: 100000, month: 200000 },
-  Bung_NoAntena: { week: 100000, month: 200000 },
+  Drag_Antena: { week: 70000, month: 120000 },
+  Drag_NoAntena: { week: 70000, month: 120000 },
+  Body_NoAntena: { week: 70000, month: 120000 },
+  Drip_Proxy: { week: 100000, month: 180000 }
 
-  Fluorite: { day: 110000, week: 280000, month: 550000 },
-  Migul_Lite: { day: 50000, week: 150000, month: 350000 },
-  Migul_Pro: { day: 90000, week: 225000, month: 450000 },
-  ADR: { week: 90000, month: 200000 },
-  Tipa_Migul: { week: 70000, month: 150000 }
+  Fluorite: { day: 100000, week: 250000, month: 350000 },
+  Migul_Lite: { day: 50000, week: 150000, month: 300000 },
+  Migul_Pro: { day: 90000, week: 220000, month: 400000 },
+  ADR: { week: 120000, month: 220000 },
+  Tipa_Migul: { week: 70000, month: 120000 }
 };
 
 function timeMenu(type) {
@@ -314,10 +311,10 @@ client.on("interactionCreate", async interaction => {
     await interaction.deferUpdate();
 
     const links = {
-      flu: "https://www.mediafire.com/file/k3svf4bojkf8216/FF_1.123.1_1.7.5.ipa/file",
-      migul: "https://www.mediafire.com/file/s2x8s3gqbqzwc8l/1777282124718-7ba56icev8t-Free_Fire_1.123.1_1777281616.ipa/file",
-      tipa: "Chưa Update",
-      adr: "https://www.mediafire.com/file/bie03xh4vag0edx/DRIPCLIENT_V1.3.TP.apks/file"
+      flu: "Chx update",
+      migul: "https://cdn.authtool.app/user_39QQInVf1DKz83SmVKQApc9ewdV/ipa/1782410338862-w5ycsbr3gn-Free_Fire_1.126.1_1782409866.ipa",
+      tipa: "Mua sẽ có tipa",
+      adr: "https://www.mediafire.com/file/di2m5ac5bojq8gn/DPFF-APKM0D-v1.0.apks/file"
     };
 
     if (interaction.values[0] === "proxy") {

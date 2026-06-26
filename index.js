@@ -314,7 +314,7 @@ client.on("interactionCreate", async interaction => {
 
     const links = {
       flu: "Chx update",
-      migul: "https://cdn.authtool.app/user_39QQInVf1DKz83SmVKQApc9ewdV/ipa/1782410338862-w5ycsbr3gn-Free_Fire_1.126.1_1782409866.ipa",
+      migul: "https://cdn.authtool.app/user_39QQInVf1DKz83SmVKQApc9ewdV/ipa/1782478710392-mg2sz2ucko-Free_Fire_1.126.1_1782477170.ipa",
       tipa: "Mua sẽ có tipa",
       adr: "https://www.mediafire.com/file/di2m5ac5bojq8gn/DPFF-APKM0D-v1.0.apks/file"
     };

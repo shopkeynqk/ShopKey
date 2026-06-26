@@ -104,8 +104,8 @@ function createEmbed(data) {
       { name: "━━━━━━━━━━━━━━━━━━━━━━━", value: "📢 Auto Update • Chính xác • Realtime" }
     )
     .setFooter({ text: "⚡ Premium Bot System - Status Time" })
-    .setTimestamp();
-    .setImage(IMAGE)
+    .setTimestamp()
+    .setImage(IMAGE);
 }
 
 // ===== BUTTON =====

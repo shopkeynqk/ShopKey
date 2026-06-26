@@ -23,7 +23,8 @@ const LOG_CHANNEL_ID = process.env.LOG_CHANNEL_ID;
 const BANK_ACC = process.env.BANK_ACC;
 const BANK_NAME = process.env.BANK_NAME || "MB";
 
-const THUMBNAIL = "https://files.catbox.moe/wpeovp.webp";
+const THUMBNAIL = "https://files.catbox.moe/zfnalg.gif";
+const IMAGE = "https://files.catbox.moe/joz8h7.gif";
 
 const client = new Client({
   intents: [
@@ -104,6 +105,7 @@ function createEmbed(data) {
     )
     .setFooter({ text: "⚡ Premium Bot System - Status Time" })
     .setTimestamp();
+    .setImage(IMAGE)
 }
 
 // ===== BUTTON =====

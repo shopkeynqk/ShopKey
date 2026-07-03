@@ -171,7 +171,7 @@ function proxyMenu() {
         { label: "👑 Fluorite", value: "Fluorite" },
         { label: "💎 Migul VN", value: "Migul" },
         { label: "🤖 Drip ADR", value: "ADR" },
-        { label: "⭐️ Tipa Cheat", value: "Tipa_cheat" }
+        { label: "⭐️ Tipa Cheat", value: "Tipa_Cheat" }
       ])
   );
 }

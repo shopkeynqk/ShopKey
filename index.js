@@ -42,7 +42,7 @@ function loadData() {
     return {
       Fluorite: "safe",
       "Migul VN": "safe",
-      "Tipa Migul": "safe",
+      "Tipa Cheat": "safe",
       "Proxy Aim": "safe",
       ADR: "safe"
     };
@@ -98,7 +98,7 @@ function createEmbed(data) {
     .addFields(
       { name: "👑 FLUORITE", value: status(data["Fluorite"]) },
       { name: "💎 MIGUL VN", value: status(data["Migul VN"]) },
-      { name: "⭐️ TIPA MIGUL", value: status(data["Tipa Migul"]) },
+      { name: "⭐️ TIPA CHEAT", value: status(data["Tipa Migul"]) },
       { name: "🌐 PROXY AIM", value: status(data["Proxy Aim"]) },
       { name: "🤖 DRIP ADR", value: status(data["ADR"]) },
       { name: "━━━━━━━━━━━━━━━━━━━━━━━", value: "📢 Auto Update • Chính xác • Realtime" }
@@ -127,7 +127,7 @@ function statusToolMenu() {
       .addOptions([
         { label: "Fluorite", value: "Fluorite" },
         { label: "Migul VN", value: "Migul VN" },
-        { label: "Tipa Migul", value: "Tipa Migul" },
+        { label: "Tipa Cheat", value: "Tipa Cheat" },
         { label: "Proxy Aim", value: "Proxy Aim" },
         { label: "ADR", value: "ADR" }
       ])
@@ -153,7 +153,7 @@ function downloadMenu() {
       .addOptions([
         { label: "Fluorite", value: "flu" },
         { label: "Migul VN", value: "migul" },
-        { label: "Tipa Migul", value: "tipa" },
+        { label: "Tipa Cheat", value: "tipa" },
         { label: "Proxy", value: "proxy" },
         { label: "ADR", value: "adr" }
       ])
@@ -171,7 +171,7 @@ function proxyMenu() {
         { label: "👑 Fluorite", value: "Fluorite" },
         { label: "💎 Migul VN", value: "Migul" },
         { label: "🤖 Drip ADR", value: "ADR" },
-        { label: "⭐️ Tipa Migul", value: "Tipa_Migul" }
+        { label: "⭐️ Tipa Cheat", value: "Tipa_cheat" }
       ])
   );
 }
@@ -212,7 +212,7 @@ const prices = {
   Migul_Lite: { day: 50000, week: 150000, month: 300000 },
   Migul_Pro: { day: 90000, week: 220000, month: 400000 },
   ADR: { week: 120000, month: 220000 },
-  Tipa_Migul: { week: 70000, month: 120000 }
+  Tipa_Cheat: { week: 50000, month: 100000 }
 };
 
 function timeMenu(type) {
@@ -313,9 +313,9 @@ client.on("interactionCreate", async interaction => {
     await interaction.deferUpdate();
 
     const links = {
-      flu: "Chx update",
+      flu: "https://www.mediafire.com/file/8tn5wjznk7t063f/Flu_Demo_OB54.ipa/file",
       migul: "https://cdn.authtool.app/user_39QQInVf1DKz83SmVKQApc9ewdV/ipa/1782478710392-mg2sz2ucko-Free_Fire_1.126.1_1782477170.ipa",
-      tipa: "Mua sẽ có tipa",
+      tipa: "https://www.mediafire.com/file/2a6k36q7ca4waod/LO%25CC%2580N_TRA%25CC%2582U_XA%25CC%2580O_ME.tipa/file",
       adr: "https://www.mediafire.com/file/di2m5ac5bojq8gn/DPFF-APKM0D-v1.0.apks/file"
     };
 

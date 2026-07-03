@@ -39,13 +39,13 @@ function loadData() {
   try {
     return JSON.parse(fs.readFileSync("./data.json"));
   } catch {
-    return {
-      Fluorite: "safe",
-      "Migul VN": "safe",
-      "Tipa Cheat": "safe",
-      "Proxy Aim": "safe",
-      ADR: "safe"
-    };
+  return {
+  Fluorite: "safe",
+  "Migul VN": "safe",
+  "Tipa Cheat": "safe",
+  "Proxy Aim": "safe",
+  ADR: "safe"
+};
   }
 }
 
@@ -98,7 +98,7 @@ function createEmbed(data) {
     .addFields(
       { name: "👑 FLUORITE", value: status(data["Fluorite"]) },
       { name: "💎 MIGUL VN", value: status(data["Migul VN"]) },
-      { name: "⭐️ TIPA CHEAT", value: status(data["Tipa Migul"]) },
+      { name: "⭐️ TIPA CHEAT", value: status(data["Tipa Cheat"]) },
       { name: "🌐 PROXY AIM", value: status(data["Proxy Aim"]) },
       { name: "🤖 DRIP ADR", value: status(data["ADR"]) },
       { name: "━━━━━━━━━━━━━━━━━━━━━━━", value: "📢 Auto Update • Chính xác • Realtime" }

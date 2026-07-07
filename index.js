@@ -313,10 +313,10 @@ client.on("interactionCreate", async interaction => {
     await interaction.deferUpdate();
 
     const links = {
-      flu: "https://www.mediafire.com/file/8tn5wjznk7t063f/Flu_Demo_OB54.ipa/file",
-      migul: "https://cdn.authtool.app/user_39QQInVf1DKz83SmVKQApc9ewdV/ipa/1783122407466-sf4dh7jduft-Free_Fire_1.126.1_1783121794.ipa",
-      tipa: "https://www.mediafire.com/file/2a6k36q7ca4waod/LO%25CC%2580N_TRA%25CC%2582U_XA%25CC%2580O_ME.tipa/file",
-      adr: "https://www.mediafire.com/file/di2m5ac5bojq8gn/DPFF-APKM0D-v1.0.apks/file"
+      flu: "https://discord.com/channels/1110927706679427205/1518805431860990052",
+      migul: "https://discord.com/channels/1110927706679427205/1518805431860990052",
+      tipa: "https://discord.com/channels/1110927706679427205/1518805431860990052",
+      adr: "https://discord.com/channels/1110927706679427205/1518805431860990052"
     };
 
     if (interaction.values[0] === "proxy") {
